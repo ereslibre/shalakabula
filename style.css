@@ -1,0 +1,634 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    height:100%;
+}
+
+*html #pagina {
+    height:100%;
+}
+
+body {
+    height:100%;
+    background-image: url(images/bg.png);
+}
+
+body, th, td, input, textarea {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+
+#pagina {
+    background: url(images/img04.png) repeat-x top left;
+    background-position: 0 100%;
+    min-height:100%;
+}
+
+form {
+}
+
+fieldset {
+}
+
+input, textarea {
+	font-weight: bold;
+}
+
+input.text {
+	padding: 2px 5px;
+	background: #F8FAEB;
+	border-top: 1px solid #4D5719;
+	border-left: 1px solid #4D5719;
+	border-right: 1px solid #626456;
+	border-bottom: 1px solid #626456;
+}
+
+input.button {
+	background: #3C7BCF;
+	border-top: 1px solid #3C7BCF;
+	border-left: 1px solid #3C7BCF;
+	border-right: 1px solid #3C7BCF;
+	border-bottom: 1px solid #3C7BCF;
+	color: #FFFFFF;
+}
+
+h1, h2, h3 {
+	margin-top: 1.5em;
+	color: #fe8701;
+}
+
+h1 {
+	letter-spacing: -.075em;
+	font-size: 3em;
+}
+
+h2 {
+	letter-spacing: -.05em;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	font-weight: bold;
+    padding: 0 0 0 15px;
+    background: url(images/arrow.png) no-repeat left;
+}
+
+.p2 {
+    padding: 0 0 0 2em;
+}
+
+h3 {
+	font-size: 1em;
+    padding: 0 0 0 15px;
+    background: url(images/plus.png) no-repeat left; margin-left: 2em;
+}
+
+.p3 {
+    padding: 0 0 0 4em;
+}
+
+p, ul, ol {
+	margin-top: 1.5em;
+	line-height: 1.8em;
+	font-size: 1.1em;
+}
+
+ul, ol {
+	margin-left: 3em;
+}
+
+blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+a {
+	text-decoration: none;
+	color: #80AB00;
+}
+
+a:hover {
+	border: none;
+}
+
+h1 a, h2 a, h3 a {
+	border: none;
+	text-decoration: none;
+	color: #80AB00;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover {
+	background: none;
+	color: #80AB00;
+}
+
+hr {
+	display: none;
+}
+
+/* Wrapper */
+
+#wrapper {
+}
+
+/* Header */
+
+#header {
+	width: 976px;
+	margin: 0 auto;
+	background: url(images/img02.png) no-repeat top left;
+}
+
+#menu {
+	height: 60px;
+	width: 976px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: center;
+	height: 30px;
+	padding: 15px 30px;
+	background: url(images/img05.png) no-repeat bottom center;
+	margin-right: 1px;
+	letter-spacing: -1px;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 22px;
+	color: #000000;
+}
+
+#menu a:hover {
+	color: #ffe300;
+}
+
+#menu .current_page_item a {
+	color: #fe8701;
+}
+
+#search {
+	float: right;
+	width: 260px;
+	margin: 0px;
+	padding-top: 7px;
+}
+
+#search fieldset {
+	border: none;
+}
+
+#search #s {
+	width: 160px;
+}
+
+#search #x {
+	width: 80px;
+}
+
+/* Logo */
+
+#logo {
+	width: 976px;
+	height: 315px;
+	margin: 0 auto;
+	background: url(images/img03.png) no-repeat left top;
+}
+
+#logo h1, #logo h2 {
+	margin: 0;
+	padding: 0;
+	text-transform: lowercase;
+}
+
+#logo h1 {
+	padding: 90px 5px 0 115px;
+	font-size: 48px;
+	color: #DAF79B;
+}
+
+#logo h2 {
+	padding: 0px 0 0 115px;
+	letter-spacing: -1px;
+	font-size: 16px;
+	color: #92C600;
+}
+
+#logo p {
+	clear: left;
+	margin: 0;
+	padding: 0 0 0 20px;
+	line-height: normal;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #C2C5B1;
+}
+
+#logo a {
+	color: #DAF79B;
+}
+
+/* Page */
+
+#page {
+	width: 978px;
+	margin: 0 auto;
+	padding: 20px 0px 0 0px;
+	border-top: none;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+}
+
+.post {
+    text-align: justify;
+}
+
+.post .title {
+	margin: 0;
+	font-weight: normal;
+	background: url(images/img07.png) no-repeat left;
+    color: #fe8701;
+}
+
+.post h1.title {
+	padding: 5px 0  0 50px;
+	height: 40px;
+	font-size: 2.4em;
+	text-transform: lowercase;
+	border-bottom: 2px dashed #666666;
+}
+
+.post .entry {
+	padding: 0 10px 30px 15px;
+}
+
+.post .meta {
+	margin: 0;
+	padding: 0px 0px 0px 50px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #CFCFCF;
+}
+
+.post .meta a {
+	color: #95CC28;
+}
+
+.post .links {
+	margin: 0;
+}
+
+.post .tags {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: .8em;
+	font-weight: bold;
+	background: url(images/img04.gif) repeat-x;
+}
+
+.post .links a, .post .tags a {
+	border: none;
+}
+
+/* Recent Posts */
+
+#recent-posts {
+}
+
+#recent-posts h2 {
+	margin: 0;
+	border-bottom: 2px dashed #666666;
+	background: url(images/img06.gif) no-repeat left 80%;
+	padding: 15px 0  0 30px;
+	height: 30px;
+	color: #80AB00;
+}
+
+#recent-posts h3 {
+	margin: 0;
+	font-size: 13px;
+	padding: 15px 0  0 15px;
+	background: url(images/img04.gif) repeat-x left bottom;
+}
+
+#recent-posts p {
+	margin: 0 0 10px 0;
+	padding: 15px 0  0 15px;
+	line-height: 22px;
+	font-size: 13px;
+}
+
+/* Calendar */
+
+#calendar {
+	margin: 0 auto;
+}
+
+#calendar caption {
+	font-weight: bold;
+}
+
+#calendar table {
+	width: 220px;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+#calendar thead th {
+	background: #CCCCCC;
+	color: #FFFFFF;
+}
+
+#calendar tbody td {
+	background: #EEEEEE;
+}
+
+#calendar #today {
+	background: #B8D03B;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#calendar a {
+	font-weight: bold;
+}
+
+#calendar #prev {
+	text-align: left;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+/* Footer */
+
+#footer {
+	height: 100px;
+}
+
+#footer p {
+	padding-top: 30px;
+	text-align: center;
+	font-size: 9px;
+    color: #000000;
+}
+
+#footer a {
+	color: #3A2905;
+}
+
+
+
+
+
+/*
+ wFORMS 2.0 Stylesheet - Default Theme v3 - Aug. 2006
+ See http://www.formassembly.com/wForms
+
+ To be used along with wforms-jsonly.css
+ This stylesheet and the associated images are Copyright (c) 2005 Cedric Savarese (http://www.4213miles.com)
+ and licensed under the Creative Commons Attribution-ShareAlike License (http://creativecommons.org/licenses/by-sa/2.0/)
+*/
+
+form {
+    padding: 10px;
+}
+
+/* Form Sections ======================================================================== */
+/* Fieldset  */
+fieldset {
+    margin: 20px 0;
+    padding: 15px 10px;
+}
+legend {
+    padding: 2px 5px;
+}
+/* Nested Fieldset  */
+fieldset fieldset  {
+}
+fieldset fieldset legend {
+}
+/* Inline Section */
+.inlineSection {
+    overflow: auto;
+    width: 100%;
+}
+/* Grid Section */
+form table {
+    border-collapse: collapse;
+}
+form td {
+    padding: 0 4px;
+}
+form th {
+    padding: 0 4px;
+}
+form .alternate-1 {
+    background-color:#F1F1F1;
+}
+form .alternate-0 {
+}
+
+/* Combo Label + Input Field =========================================================== */
+form .oneField {
+
+}
+form .inlineSection .oneField {
+    float: left;
+    padding: 0;
+    margin-right: 4px;
+}
+/* Ties together a label and its checkbox or radio */
+form .oneChoice {
+    white-space: nowrap;
+}
+
+/* Field Labels ======================================================================== */
+
+/* Base */
+label, form .label {
+    color: #666666;
+}
+/* Text inputs / Select label */
+label.preField {
+    display: block;
+    padding: 2px;
+    margin: 0.4em 4px 0 0;
+}
+/* Radio / Checkbox group label */
+form .label  {
+    display: block;
+    padding: 2px;
+    margin: 0.4em 4px 0 0;
+}
+/* Individual Checkbox / Radio label */
+label.postField  {
+    margin: 0 4px 0 4px;
+}
+/* Label when inside an inline section */
+.inlineSection .oneField .inlineLabel {
+    display: block;
+    padding: 0 3px;
+    margin: 0.4em 4px 0 0;
+}
+
+/* Inputs ======================================================================== */
+
+textarea {
+    padding: 0;
+    vertical-align: top;
+    margin: 2px 2px 1px 0;
+}
+input {
+    margin: 0 2px 0 0;
+}
+select {
+    padding: 0;
+    margin: 2px 2px 1px 0;
+}
+.inlineSection .oneField select {
+    margin: 0 2px 1px 0 !important;
+}
+.gridSection select  {
+    margin: 0 !important;
+}
+
+/* Buttons ======================================================================= */
+
+form .actions {
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+/* Submit button */
+form .primaryAction {
+}
+/* Cancel button */
+form .secondaryAction {
+    color: grey;
+}
+form .secondaryAction:hover {
+    color: black;
+}
+
+
+/* Form Builder Related Rules ===================================================== */
+
+/* Form or Fieldset instruction paragraph. */
+form .instructions {
+    margin: 1em 0;
+}
+/* Asterisk on required fields */
+form .reqMark {
+    color: #F00;
+    padding: 0 4px;
+}
+
+/* wForms Related Rules ========================================================== */
+
+/* Field w/ a validation error */
+form .errFld {
+    padding: 1px;
+    border: 1px solid #F00;
+}
+/* Styling for message associated with a validation error. */
+form .errMsg {
+    color: #CC3333 !important;
+    display: block;
+}
+/* Field-Hint with focus */
+form .field-hint {
+    color: #000;
+    float: right;
+    width: 220px;
+    margin: 15px 0 0 0;
+}
+/* Field-Hint without focus */
+form .field-hint-inactive {
+    color: #666;
+    float: right;
+    clear: right;
+    width: 220px;
+    margin: 15px 0 0 0;
+}
+/* Repeat Behavior divs (when not set on a fieldset) */
+div.repeat {
+    border: 1px dotted #ccc;
+    margin: 3px 0;
+    padding-right: 3px;
+}
+div.removeable {
+    border: 1px dotted #ccc;
+    padding-right: 3px;
+}
+/* Links generated by the Repeat Behavior */
+form .duplicateLink {
+    line-height: 260%;
+    color: #5C594E;
+}
+form .removeLink {
+    line-height: 260%;
+    color: #CC3300;
+}
+form td .duplicateLink, form td .removeLink  {
+    margin: 0;
+    line-height: 100%;
+}
+/* Switch Behavior Classes */
+.onstate-a,  .onstate-b,  .onstate-c,  .onstate-d,
+.onstate-e,  .onstate-f,  .onstate-g,  .onstate-h,
+.onstate-i,  .onstate-j,  .onstate-k,  .onstate-l,
+.onstate-m,  .onstate-n,  .onstate-o,  .onstate-p,
+.onstate-q,  .onstate-r,  .onstate-s,  .onstate-t,
+.onstate-u,  .onstate-v,  .onstate-w,  .onstate-x,
+.onstate-y,  .onstate-z,  .onstate-aa, .onstate-ab,
+.onstate-ac, .onstate-ad, .onstate-ae, .onstate-af,
+.onstate-ag, .onstate-ah, .onstate-ai, .onstate-aj,
+.onstate-ak, .onstate-al, .onstate-am, .onstate-an,
+.onstate-ao, .onstate-ap, .onstate-aq, .onstate-ar,
+.onstate-as, .onstate-at, .onstate-au, .onstate-av,
+.onstate-aw, .onstate-ax, .onstate-ay, .onstate-az {
+    display: block;
+}
+/* offstate classes for the Switch Behavior are in wforms-jsonly.css */
+
+
+/* IE6 BUG FIXES ==================================================================== */
+form {
+    height:expression('1%'); /* IE Pick-a-boo bug fix */
+}
+form fieldset {
+    position:expression('relative'); /* Fixes IE problem with fieldset+legend boundaries */
+    margin-top:expression('1em');
+    padding-top:expression('1.5em');
+}
+form fieldset legend {
+    position: expression('absolute');
+    top: expression('-.5em'); /* Fixes IE problem with fieldset+legend boundaries */
+    left:expression('.5em');
+}
